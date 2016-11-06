@@ -1,0 +1,26 @@
+{
+  "name": "sorting",
+  "version": "1.0.0",
+  "description": "### Sorting algorithms developed in different programming languages for both reference and learning of new languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikebobadilla/sorting-algorithms.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikebobadilla/sorting-algorithms/issues"
+  },
+  "homepage": "https://github.com/mikebobadilla/sorting-algorithms#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.2",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {
+    "jasmine": "^2.5.2"
+  }
+}

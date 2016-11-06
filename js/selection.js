@@ -1,7 +1,7 @@
-var selection = (function(){
+module.exports = (function(){
 
     var smallest;
-	var index;
+    var index;
     var sorted;
 
     var sortElements = function(elements){
@@ -32,12 +32,3 @@ var selection = (function(){
     };
 
 })();
-
-var x = [];
-for(var i = 0; i < 100; i++){ x.push(Math.floor(Math.random() * 10)) }
-console.time('selection');
-for(var i = 0; i < 1000000; i++){selection.sort(x)};
-console.timeEnd('selection');
-
-// ~200ms for 1 million iterations of array size 6 = .0002 ms per iteration
-// ~13000ms for 1 million iterations of array size 100 = .01 ms per iteration
